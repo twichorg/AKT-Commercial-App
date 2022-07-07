@@ -1,6 +1,6 @@
 {
-  "homepage": "https//twichorg.github.io/AktCommerce",
-  "name": "AktCommerce",
+  "homepage": "http://localhost:3000/",
+  "name": "AktCommercial",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
