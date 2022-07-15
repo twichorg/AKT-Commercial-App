@@ -9,7 +9,6 @@ import { mobile } from '../Responsive'
 // Styled Components with Container 
 const Container = styled.div`
 height:60px;
-
 ${mobile({height:"50px"})}
 `
 
@@ -49,6 +48,7 @@ const MenuItem = styled.div`
 font-size:14px;
 cursor:pointer;
 margin-left:20px;
+text-decoration:none;
 ${mobile({fontSize:"12px", marginRight:"15px",padding:"1px"})}
 `
 

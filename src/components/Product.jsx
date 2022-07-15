@@ -67,12 +67,22 @@ const Icon = styled.div`
   }
 `;
 
+const Title = styled.h3`
+  font-size: 0,5rem;
+  font-weight: bold;
+  margin: 10px;
+  color: #e9f5f5;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  `;
+
 const Product = ({ item }) => {
   return (
     <Container>
       <Circle />
       <Image src={item.img} />
       <Info>
+      <Title>{item.title}</Title>
         <Icon>
       <Link to='/product'> <ShoppingCartOutlined /> </Link>   
         </Icon>
